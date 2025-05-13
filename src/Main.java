@@ -12,8 +12,8 @@ public class Main {
             savings += savings * 0.01;
             savings += 15000;
             month++;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + savings);
         }
-        System.out.println("Месяц " + month + ", сумма накоплений равна " + savings);
 
         System.out.println("Task 2");
 
